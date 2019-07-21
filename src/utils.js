@@ -23,9 +23,9 @@ const sendMail = email => {
   return client.sendMail(email);
 };
 
-export const sendSecretmail = (adress, secret) => {
+export const sendSecretMail = (adress, secret) => {
   const email = {
-    from: "info@oxinion.com",
+    from: "oxinion@oxinion.com",
     to: adress,
     subject: "🔒Login Secret for OXINION🔒",
     html: `Hello! Your login secret is <strong>${secret}</strong>.<br/>Copy paste on the website/app to log in`
