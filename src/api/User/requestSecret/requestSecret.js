@@ -1,4 +1,3 @@
-  
 import { generateSecret, sendSecretMail } from "../../../utils";
 import { prisma } from "../../../../generated/prisma-client";
 
